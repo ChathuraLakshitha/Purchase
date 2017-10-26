@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Purchase</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+        <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body style="background-color: #e8e8fe">
+        <div class="row padding-div" >
+            <div class="col-xs-12 col-sm-12 col-md-12" style="background-color: blue;" id="header-div"><h1>16A - ගැණුම් </h1></div>
+        </div>
+        <div class="row padding-div" id="div-two">
+            <div class="col-md-6">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><strong>බිල්පත් අoකය</strong></label>
+                        <div class="col-sm-7">
+                            <input class="form-control" placeholder="බිල්පත් අoකය">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><strong>ලදුපත් දිනය</strong></label>
+                        <div class="col-sm-7">
+                            <input type="date" class="form-control" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><strong>ලාදුපත් අoකය</strong></label>
+                        <div class="col-sm-7">
+                            <input class="form-control"  placeholder="ලාදුපත් අoකය">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><strong>සැපයුම් කරු</strong></label>
+                        <div class="col-sm-9">
+                            <input  class="form-control" placeholder="සැපයුම් කරු">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label"><strong>අoකය</strong></label>
+                        <div class="col-sm-9">
+                            <input class="form-control"  placeholder="අoකය">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-3 control-label"></label>
+                        <div class="col-sm-9">
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"><strong>මුදලට</strong>
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"><strong>ණයට</strong>
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row padding-div" id="div-3" >
+            <table class="table table-bordered" id="purchas-table">
+                <thead>
+                    <tr class="danger">
+                        <th>අoකය</th>
+                        <th >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;විස්තරය&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                        <th>කැලි ගණන</th>
+                        <th>ලැබුන ප්‍රමණය</th>
+                        <th>බර ගත් ප්‍රමාණය</th>
+                        <th>නොමිලෙ ලැබීම්</th>
+                        <th>එකකය</th>
+                        <th>ගත් මිල</th>
+                        <th>වටිනාකම</th>
+                        <th>විකුණුම් මිල</th>
+                        <th>ප්‍රදෙශිකයෙ වි.කු. මිල</th>
+                        <th>කල් ඉකුත් වන මසය</th>
+                        <th>කල් ඉකුත් වන අවුරුද්ද</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> one </td>
+                        <td >  </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td> 0.00 </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </div> 
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <br><br><br><br><br>
+            </div>
+        </div>
+        <div class="row padding-div" id="div-4">
+            <div class="col-md-2" >
+                <br><br><br>
+                <p>
+                    <button type="button" class="btn btn-primary"><strong>&nbsp;&nbsp;&nbsp;&nbsp;නව&nbsp;&nbsp;&nbsp;&nbsp;</strong></button>
+                    <button type="button" class="btn btn-primary"><strong>&nbsp;&nbsp;&nbsp;සෙව් &nbsp;&nbsp;&nbsp;</strong></button>
+                </p>
+            </div>
+            <div class="col-md-3" >
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>මුලු එකතුව</strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control" placeholder="මුලු එකතුව">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>පැටව්ම් ගස්තු</strong></label>
+                        <div class="col-sm-6">
+                            <input  class="form-control" placeholder="පැටව්ම් ගස්තු">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>වෙනත් ගස්තු</strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control"  placeholder="වෙනත් ගස්තු">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>වි.මි. එකතුව</strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control" placeholder="වි.මි. එකතුව">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>ආපසු ගෙවීම් </strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control" placeholder="ආපසු ගෙවීම් ">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>වට්ටම</strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control"  placeholder="වට්ටම">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>ජ්රා.වි.මි. එකතුව</strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control" placeholder="ජ්රා.වි.මි. එකතුව">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>බිල් වෙනස</strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control" placeholder="බිල් වෙනස">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-6 control-label"><strong>අවසාන එකතුව</strong></label>
+                        <div class="col-sm-6">
+                            <input class="form-control"  placeholder="අවසාන එකතුව">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-1">
+                <br><br><br><br>
+                <p>
+                    <button type="button" class="btn btn-danger"><strong>වසන්න</strong></button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+            </div>
+        </div> 
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script  type="text/javascript" src="js/dom.js"></script>
+    </body>
+</html>
