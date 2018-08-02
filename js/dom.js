@@ -10,3 +10,5 @@ $(window).resize(function () {
     }
 
 });
+
+alaert("");
